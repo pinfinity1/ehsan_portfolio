@@ -20,6 +20,9 @@ a {
 .navbar {
   background-color: var(--color-primary);
 }
+.text_shadow {
+    text-shadow: 0px 0px 24px rgba(0, 0, 0, 0.7);
+}
 
 .nav-link {
   font-weight: 700;
@@ -83,6 +86,7 @@ a {
 /* skills */
 .skill_header {
     color: var(--color-brand);
+    font-weight: 700;
 }
 .skill_card {
     display: flex;
@@ -106,8 +110,37 @@ a {
     align-items: center;
     font-size: 40px;
 }
+ /* work */
+ .card{
+    background-color: var(--color-primary);
+    color: var(--color-body);
+    transition: all 0.5s;
+    overflow: hidden;
+ }
+ .card:hover {
+    box-shadow: 0px 0px 12px 0px rgba(17,133,137,0.75);
+    border: 1px solid var(--color-brand);
+ }
+ .card-img-top {
+    transition: all 0.5s;
+ }
+ .card-img-top:hover {
+    scale: 1.1;
+ }
+ .text_custom {
+    color: var(--color-brand);
+ }
 
-
+ /* about me */
+ .about {
+    background-color: var(--color-primary);
+    transition: all 0.5s;
+ }
+ .about:hover {
+    box-shadow: 0px 0px 12px 0px rgba(17,133,137,0.75);
+    border: 1px solid var(--color-brand);
+ }
+ 
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -120,7 +153,7 @@ a {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar {
     min-height: 100vh;
     width: 240px;
