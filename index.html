@@ -20,20 +20,20 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md fixed-top">
-        <div class="container flex-md-column text-md-center">
-            <a class="navbar-brand mx-md-auto mb-md-4" href="#">
-                <p class="h3 fw-bold mb-md-5">Pinfinity</p>
-                <img src="./assets/images/avatar.jpeg" class="avatar d-none d-md-block rounded-circle "
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container flex-lg-column text-lg-center">
+            <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+                <p class="h2 fw-bold mb-lg-5 text_shadow">Pinfinity</p>
+                <img src="./assets/images/avatar.jpeg" class="avatar d-none d-lg-block rounded-circle "
                     alt="avatar image">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto flex-md-column text-md-center">
+                <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
                     <li class="nav-item">
                         <a class="nav-link" href="#home">Home</a>
                     </li>
@@ -47,7 +47,7 @@
                         <a class="nav-link" href="#about">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">Contact Me</a>
+                        <a class="nav-link" href="#contact">Contact Me</a>
                     </li>
                 </ul>
             </div>
@@ -67,7 +67,7 @@
                             something new, solve problems and
                             growing to be up-to-date.</p>
                         <a href="#work" class="btn home_btn me-3">Explore My Work</a>
-                        <a href="#" class="h6 fw-bold link_custom">Contact Me</a>
+                        <a href="#contact" class="h6 fw-bold link_custom">Contact Me</a>
                     </div>
                 </div>
             </div>
@@ -183,17 +183,17 @@
         <!-- /WORK -->
         <!-- ABOUT ME -->
         <section id="about" class="sections px-md-5">
-            <div class="container">
+            <div class="container py-5">
                 <div class="row">
                     <div class="col-md-10 mb-4">
                         <h5 class="skill_header">ABOUT ME</h5>
                         <h1>My Education & Experiance</h1>
                     </div>
                 </div>
-                <div class="row g-5">
+                <div class="row g-3">
                     <div class="col-md-6">
                         <h3 class="fw-bold">Education</h3>
-                        <div class="row mt-4">
+                        <div class="row  p-3">
                             <div class="about p-4 rounded">
                                 <h4>Bachelor's Degree of Petroleum Engineering</h4>
                                 <p class="text_custom">Isfahan University of Technology(1396-1401)</p>
@@ -203,7 +203,7 @@
                     </div>
                     <div class="col-md-6 ">
                         <h3 class="fw-bold">Experiance</h3>
-                        <div class="row mt-4">
+                        <div class="row  p-3">
                             <div class="about p-4 rounded">
                                 <h4>ReactJs BootCamp</h4>
                                 <p class="text_custom">Daneshkar Company(1401-1402 6mth)</p>
@@ -216,7 +216,40 @@
         </section>
         <!-- /ABOUT ME -->
         <!-- CONTACT ME -->
+        <section id="contact" class="sections px-md-5">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-10 mb-4">
+                        <h5 class="skill_header">CONTACT ME</h5>
+                        <h1>Interested in working together? Let's talk</h1>
+                    </div>
+                    <div class="col-md-8">
+                        <form class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                  <input type="text" class="form-control" placeholder="Enter Your Name" aria-label="First name">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                  <input type="email" class="form-control" placeholder="Enter Your Email" aria-label="Last name">
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" class="form-control" placeholder="Enter subject">
+                                </div>
+                                <div class="col-12">
+                                    <textarea name="" rows="4" class="form-control" placeholder="Enter your message"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn home_btn w-100">Contact me</button>
+                                </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
         <!-- /CONTACT ME -->
+        <footer class="p-4 text-center">
+            <p>Author: <u>Pinfinity</u> 2023</p>
+        </footer>
 
     </div>
     <!-- /BANNER -->
