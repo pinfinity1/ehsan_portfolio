@@ -21,7 +21,7 @@ a {
   background-color: var(--color-primary);
 }
 .text_shadow {
-  text-shadow: 0px 0px 24px rgba(0, 0, 0, 0.7);
+  text-shadow: 0px 0px 8px rgba(82, 82, 82, 0.2);
 }
 
 .nav-link {
