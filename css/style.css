@@ -168,6 +168,9 @@ a {
 .form-control::placeholder {
   color: var(--color-body);
 }
+.msg {
+  color:rgb(205, 30, 30);
+}
 
 /* footer */
 .footer_text:hover {
