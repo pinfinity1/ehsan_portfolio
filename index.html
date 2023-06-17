@@ -234,23 +234,24 @@
                         <h1>Interested in working together? Let's talk</h1>
                     </div>
                     <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
-                        <form class="row g-3">
+                        <form class="row g-3" id="loginForm">
                             <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control" placeholder="Enter Your Name">
+                                <input type="text" id="userName" class="form-control" placeholder="Enter Your Name">
                             </div>
                             <div class="col-12 col-sm-6">
-                                <input type="email" class="form-control" placeholder="Enter Your Email">
+                                <input type="email" id="userEmail" class="form-control" placeholder="Enter Your Email">
                             </div>
                             <div class="col-12">
-                                <input type="text" class="form-control" placeholder="Enter Subject">
+                                <input type="text" id="userSubject" class="form-control" placeholder="Enter Subject">
                             </div>
                             <div class="col-12">
-                                <textarea name="" rows="4" class="form-control"
+                                <textarea name="" rows="4" id="userText" class="form-control"
                                     placeholder="Enter Your Message"></textarea>
                             </div>
                             <div class="col-12">
-                                <button type="submit" class="btn btn_custom w-100">Contact me</button>
+                                <button type="submit" id="formBtn" class="btn btn_custom w-100">Contact me</button>
                             </div>
+                            <span class="msg"></span>
                         </form>
                     </div>
                     <div class="col-8 my-5 ">
